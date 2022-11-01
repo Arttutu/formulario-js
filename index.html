@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="assests\body.css" rel="stylesheet" >
+  <link href="assests\conteudo.css" rel="stylesheet" >
+  <link href="assests/conteudo/conteudo-titulo.css" rel="stylesheet" >
+  <link href = "assests/formulario.css" rel="stylesheet">
+  <link href = "assests\reset.css" rel="stylesheet">
+  <link href = "assests\conteudo\paginaInical.css" rel="stylesheet">
+  <link href = "assests\conteudo\paginaInicial__descricao.css" rel="stylesheet">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="corpo">
+
+    <main class="conteudo">
+        <section class="paginaInicial">
+
+        
+            <div class="paginaInical__main">
+
+                <h1 class="paginaInicial__titulo">Aprenda a codificar observando os outros</h1>
+
+                <P class="PaginaInicial__descricao">Veja como desenvolvedores experientes resolvem problemas em tempo real. Assistir a tutoriais com script é ótimo, mas entender como os desenvolvedores pensam é inestimável.</P>
+
+            </div>
+
+            <div class="paginaInicial__formulario">
+                
+                <div class="paginaInicial__flex">
+
+                    <div class="caixa__propaganda"> 
+                        <p class="formulario__descricao"> Experimente grátis por 7 dias e depois $ 20/mês. </p>
+                    </div>
+                        
+                    
+
+                    <div class="caixa__form">
+                            
+                        <form id="formulario">
+                            
+                                <input type="text" placeholder="Seu nome" class="formulario__texto required" id="nome"  oninput="nameValidate()"> </input>
+                                <span class="span-required">Nome não pode estar vazio</span>
+                
+                            <div>
+                                <input type="text" placeholder="Ultimo Nome" class="formulario__texto required" > </input>
+                                <span class="span-required">Nome não pode estar vazio</span>
+                            </div>
+
+                            <div>
+                                <input type="email" placeholder="Enderço de Email" class="formulario__texto required" ></input>
+                                <span class="span-required">Nome não pode estar vazio</span>
+                            </div>
+                            <div>
+                                <input type="password" placeholder="Sua Senha" class="formulario__texto required" ></input>
+                                <span class="span-required">Nome não pode estar vazio</span>
+                            </div>
+
+                            <button type="submit" class="botao__formulario"> reivindique sua avaliação gratuita</button>
+                            <span class="span-required">Nome não pode estar vazio</span>
+
+                        </form>
+                            
+                           
+                            <p class="direitos__formulario"> Ao clicar no botão, você concorda com nossos <p id="termos">Termos e Serviços </p></p>
+                           
+                    </div>
+                </div>
+
+
+           
+            </div>
+
+         
+        </section>
+
+
+    </main>
+  
+  <footer>
+    <p class="attribution">
+      Desafio por  <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Arthur Gomes dos Santos</a>.
+    </p>
+  </footer>
+  <script src="js/validaFormulario.js"></script>
+  </section>
+</body>
+</html>
