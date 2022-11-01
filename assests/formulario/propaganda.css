@@ -11,3 +11,10 @@
     color: #fdfdfd;
     text-align: center;
 }
+@media (max-width: 375px){
+    .PaginaInicial__descricao{
+        padding-bottom: 20px;
+
+    }
+}
+      
