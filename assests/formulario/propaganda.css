@@ -13,7 +13,7 @@
 }
 @media (max-width: 375px){
     .propaganda__descricao{
-        padding-bottom: 30px;
+       margin-bottom: 30px;
 
     }
 }
