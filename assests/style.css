@@ -23,6 +23,8 @@
     .app{
         background: url('../images/bg-intro-mobile.png');
         background-color: var(--red);
+        display: flex;
+        width: 365px;
     }
 
 }
