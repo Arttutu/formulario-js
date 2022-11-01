@@ -62,38 +62,52 @@
                     <div class="caixa__form">
 
                         <form id="formulario">
-                            
-                            <div class="conteiner">
-                                <label>
-                                    <svg class="icon error">
-                                        <use xlink:href ="#icon-error"> </use>
-                                    </svg>
-                                    <input type="text" placeholder="Seu nome"  id="nome" class="required"
-                                        oninput= "nameValidate()"> 
-                                    </input>
-                                </label>
-                            </div>
-                            <span class="span-required">Nome não pode estar vazio</span>
-                            <div class="conteiner">
-                                <input type="text" placeholder="Ultimo Nome" class="required" id="ultimo-nome" >
-                                
-                                </input>
-                                <span class="span-required">Nome não pode estar vazio</span>
-                            </div>
 
-                            <div class="conteiner">
-                                <input type="email" placeholder="Enderço de Email"
-                                    class="required" id="email"></input>
+
+                            <label>
+                                <svg class="icon error">
+                                    <use xlink:href="#icon-error"> </use>
+                                </svg>
+                                <input type="text" placeholder="Seu nome" id="nome" class="required"
+                                    oninput="nameValidate()"></input>
                                 <span class="span-required">Nome não pode estar vazio</span>
-                            </div>
-                            <div class="conteiner">
-                                <input type="password" placeholder="Sua Senha"
-                                    class="formulario__texto required" id="senha"></input>
-                                <span class="span-required">Nome não pode estar vazio</span>
-                            </div>
+
+                            </label>
+
+
+                            <label>
+                                <svg class="icon error">
+                                    <use xlink:href="#icon-error"></use>
+                                </svg>
+
+                                <input type="text" placeholder="Ultimo Nome" class="required" id="ultimo-nome"
+                                    oninput="sobreNomeValidate()"></input>
+                                <span class="span-required">Sobrenome não pode estar vazio</span>
+
+                            </label>
+
+                            <label>
+                                <svg class="icon error">
+                                    <use xlink:href="#icon-error"></use>
+                                </svg>
+                                <input type="email" placeholder="endereço@domínimo.com" class="required" id="email"
+                                    oninput="emailValidate()"></input>
+                                <span class="span-required">Parece que isso não é um email</span>
+
+                            </label>
+
+                            <label>
+                                <svg class="icon error">
+                                    <use xlink:href="#icon-error"></use>
+                                </svg>
+                                <input type="password" placeholder="Sua Senha" class="formulario__texto required"
+                                    id="senha" oninput=" senhaValidacao()"></input>
+                                <span class="span-required">Sua senha não tem 8 dígitos</span>
+                            </label>
+
 
                             <button type="submit" class="botao__formulario"> reivindique sua avaliação gratuita</button>
-                            <span class="span-required">Nome não pode estar vazio</span>
+
 
                         </form>
 
@@ -118,14 +132,19 @@
             Coded by <a href="#">Arthur Gomes dos Santos</a>.
         </p>
     </footer>
-        <svg class="spritesheet">
-            <symbol id="icon-error" viewBox="0 0 32 32">
+
+    <svg class="spritesheet">
+
+        <symbol id="icon-error" viewBox="0 0 32 32">
             <title>user</title>
-            <path  d="M12 17.85q.725 0 1.225-.5.5-.5.5-1.225 0-.725-.5-1.238-.5-.512-1.225-.512-.725 0-1.225.512-.5.513-.5 1.238t.5 1.225q.5.5 1.225.5Zm-1.575-4.8h3.15V6.475h-3.15ZM12 22.85q-2.275 0-4.25-.85t-3.438-2.312Q2.85 18.225 2 16.25q-.85-1.975-.85-4.25T2 7.75q.85-1.975 2.312-3.438Q5.775 2.85 7.75 2q1.975-.85 4.25-.85t4.25.85q1.975.85 3.438 2.312Q21.15 5.775 22 7.75q.85 1.975.85 4.25T22 16.25q-.85 1.975-2.312 3.438Q18.225 21.15 16.25 22q-1.975.85-4.25.85Zm0-3.15q3.25 0 5.475-2.225Q19.7 15.25 19.7 12q0-3.25-2.225-5.475Q15.25 4.3 12 4.3q-3.25 0-5.475 2.225Q4.3 8.75 4.3 12q0 3.25 2.225 5.475Q8.75 19.7 12 19.7Zm0-7.7Z"></path>
-            </symbol>
-       
-         </svg>
-            <script src="js/validaFormulario.js"></script>
+            <path
+                d="M12 17.85q.725 0 1.225-.5.5-.5.5-1.225 0-.725-.5-1.238-.5-.512-1.225-.512-.725 0-1.225.512-.5.513-.5 1.238t.5 1.225q.5.5 1.225.5Zm-1.575-4.8h3.15V6.475h-3.15ZM12 22.85q-2.275 0-4.25-.85t-3.438-2.312Q2.85 18.225 2 16.25q-.85-1.975-.85-4.25T2 7.75q.85-1.975 2.312-3.438Q5.775 2.85 7.75 2q1.975-.85 4.25-.85t4.25.85q1.975.85 3.438 2.312Q21.15 5.775 22 7.75q.85 1.975.85 4.25T22 16.25q-.85 1.975-2.312 3.438Q18.225 21.15 16.25 22q-1.975.85-4.25.85Zm0-3.15q3.25 0 5.475-2.225Q19.7 15.25 19.7 12q0-3.25-2.225-5.475Q15.25 4.3 12 4.3q-3.25 0-5.475 2.225Q4.3 8.75 4.3 12q0 3.25 2.225 5.475Q8.75 19.7 12 19.7Zm0-7.7Z">
+            </path>
+        </symbol>
+
+    </svg>
+
+    <script src="js/validaFormulario.js"></script>
     </section>
 </body>
 
