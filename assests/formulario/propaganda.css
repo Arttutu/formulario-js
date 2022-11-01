@@ -11,3 +11,10 @@
     color: #fdfdfd;
     text-align: center;
 }
+@media (max-width: 375px){
+    .caixa__propaganda{
+       margin-bottom: 30px;
+
+    }
+}
+      
