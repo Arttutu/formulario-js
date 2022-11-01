@@ -13,8 +13,6 @@
     display: grid;
     grid-template-areas:
         "conteudo"
-        "rodape"
-    
     ;
     grid-template-columns: auto;
     grid-template-rows: 100vh auto;
