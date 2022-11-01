@@ -5,3 +5,9 @@
     border-radius: 10px;
     background-color: var(--blue);
 }
+.propaganda__descricao{
+    padding: 20px;
+    font-family: var(--fonte-estilo);
+    color: #fdfdfd;
+    text-align: center;
+}

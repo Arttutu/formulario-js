@@ -7,7 +7,7 @@
     --verde: hsl(154, 59%, 51%);
     --red:hsl(0, 100%, 74%);
 }
-.corpo{
+.app{
     background: url(../images/bg-intro-desktop.png);
     background-color: var(--red) ;
     display: grid;

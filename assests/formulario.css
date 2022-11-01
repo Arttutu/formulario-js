@@ -1,19 +1,10 @@
-.conteudo__formulario{
-    display: flex;
-    flex-direction: column;
-}
 
 .paginaInicial__flex{
     display: flex;
     align-items: center;
     flex-direction: column;
 }
-.formulario__descricao{
-    padding: 20px;
-    font-family: var(--fonte-estilo);
-    color: #fdfdfd;
-    text-align: center;
-}
+
 .caixa__form{
     padding-top: 40px;
     margin-left: 10%;
@@ -31,9 +22,8 @@
     gap:1rem;
 }
 
-
-.formulario__texto:focus{
-    border: 2px solid hsl(248, 32%, 49%);
+input:focus{
+    border: 3px solid var(--blue)
 
 }
 .botao__formulario{
