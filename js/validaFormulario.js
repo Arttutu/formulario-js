@@ -2,11 +2,13 @@
    const form = document.getElementById('formulario');
    const campos =document.querySelectorAll('.required');
    const spans = document.querySelectorAll('.span-required')
+   const icone = document.querySelectorAll('.icon')
    const emmailRegex =  /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/g ;
    
    function setError(index){
      campos[index].style.border = '2px solid  hsl(0, 100%, 74%)'
      spans[index].style.display = 'block'
+     icone[index].style.display = 'inline-block'
    }
    
 

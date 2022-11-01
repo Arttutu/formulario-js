@@ -1,0 +1,7 @@
+.caixa__propaganda{
+    width: 80%;
+    border: 1px solid rgba(0, 0, 0, 0);
+    box-shadow: 4px 8px 4px rgba(0, 0, 0, 0.300);
+    border-radius: 10px;
+    background-color: var(--blue);
+}
