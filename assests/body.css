@@ -1,0 +1,22 @@
+
+:root{
+    --tamanho-princial: 50px;
+    --fonte-estilo:  'Fasthand', cursive;
+    --dark-blue: hsl(249, 10%, 26%);
+    --blue: hsl(248, 32%, 49%);
+    --verde: hsl(154, 59%, 51%);
+    --red:hsl(0, 100%, 74%);
+}
+.corpo{
+    background: url(../images/bg-intro-desktop.png);
+    background-color: var(--red) ;
+    display: grid;
+    grid-template-areas:
+        "conteudo"
+        "rodape"
+    
+    ;
+    grid-template-columns: auto;
+    grid-template-rows: 100vh auto;
+
+}

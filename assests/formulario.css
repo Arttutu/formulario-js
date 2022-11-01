@@ -1,0 +1,98 @@
+.conteudo__formulario{
+    display: flex;
+    flex-direction: column;
+}
+
+.paginaInicial__flex{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.caixa__propaganda{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    border: 1px solid rgba(0, 0, 0, 0);
+    box-shadow: 4px 8px 4px rgba(0, 0, 0, 0.300);
+    border-radius: 10px;
+    background-color: var(--blue);
+}
+.formulario__descricao{
+    padding: 20px;
+    font-family: var(--fonte-estilo);
+    color: #fdfdfd;
+    text-align: center;
+}
+.caixa__form{
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+     
+    height: 400px;
+    width: 80%;
+    background-color: #fdfdfd;
+    border-radius: 10px;
+    box-shadow: 4px 8px 4px  rgba(0, 0, 0, 0.288)
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.formulario__texto{
+    display: flex;
+    font-family: var(--fonte-estilo);
+    font-weight: 600;
+    border: 1px solid rgba(128, 128, 128, 0.459);
+    border-radius: 5px;
+    margin-bottom: 15px;
+    height: 50px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    transition: .3s;
+ 
+}
+.formulario__texto:focus{
+    border: 2px solid hsl(248, 32%, 49%);
+
+}
+.botao__formulario{
+    border: none;
+    border-radius: 5px;
+    background-color: var(--verde);
+    font-family: var(--fonte-estilo);
+    font-weight: 700;
+    color: #fdfdfd;
+    text-transform: uppercase;
+    height: 50px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    transition: 0.3s;
+}
+.botao__formulario:hover{
+    background-color:  hsla(154, 98%, 51%, 0.993); ;
+    cursor: pointer;
+}
+.direitos__formulario{
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 0.363);
+    padding-top: 10px;
+    text-align: center;
+}
+#termos{
+    font-size: 0.8rem;
+    text-align: center;
+    color: var(--red) ;
+}
+.span-required{
+    display: none;
+    color: var(--red);
+    font-size: 1rem;
+    margin-left:200px;
+}

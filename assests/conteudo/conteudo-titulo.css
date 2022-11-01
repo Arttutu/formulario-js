@@ -1,0 +1,6 @@
+
+.paginaInicial__titulo{
+    font-size: var(--tamanho-princial);
+    font-family: var(--fonte-estilo);
+    color:#fdfdfd;
+}
