@@ -20,7 +20,7 @@
   }
   
   label > input {
-    border: 1px solid rgba(0, 0, 0, 0.382);
+    border: 1px solid rgba(0, 0, 0, 0.312);
     border-radius: 5px;
     display: flex;
     font-family: var(--fonte-estilo);
@@ -31,4 +31,5 @@
     transition: .3s;
     width: 90%;
   }
+  
   
