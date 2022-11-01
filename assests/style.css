@@ -13,8 +13,16 @@
     display: grid;
     grid-template-areas:
         "conteudo"
+        "rodape"
     ;
     grid-template-columns: auto;
     grid-template-rows: 100vh auto;
+
+}
+@media(max-width: 768px){
+    .app{
+        background: url('../images/bg-intro-mobile.png');
+        background-color: var(--red);
+    }
 
 }

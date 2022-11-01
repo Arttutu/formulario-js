@@ -4,3 +4,15 @@
     font-family: var(--fonte-estilo);
     color:#fdfdfd;
 }
+@media(max-width: 768px){
+    .paginaInicial__titulo{
+            text-align:center;
+            font-size: 2rem;
+            padding-bottom: 20px;
+            padding-top: 100px;
+            width: 80%;
+            margin-left: 10%;
+            margin-right: 10%;
+    }
+
+}

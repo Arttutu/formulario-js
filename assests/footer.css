@@ -1,4 +1,7 @@
-.rodape {
+.rodape{
+    grid-area: rodape;
+}
+.rodape_descricao {
     margin-top: 20px;
     font-size: 16px;
     text-align: center;
@@ -7,12 +10,18 @@
  }
 
 
-.rodape a {
+.rodape_descricao a {
     color: hsl(228, 45%, 44%);
     text-decoration: none;
     transition: 0.3s;
 }
-.rodape a:hover{
+.rodape_descricao a:hover{
     color: #fdfdfd;
     text-decoration: underline;
+}
+@media (max-width: 768px){
+    .rodape{
+        display: none;
+        
+    }
 }
