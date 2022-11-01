@@ -65,7 +65,7 @@ input:focus{
     margin-right: 5%;
     margin-top: 5px;
 }
-@media (max-width: 768px){
+@media (max-width: 375px){
     .caixa__form{
         margin-bottom: 80px;
         
