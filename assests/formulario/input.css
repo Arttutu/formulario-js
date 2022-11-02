@@ -32,6 +32,6 @@ label > input {
 }
 @media (max-width: 768px) {
   label > .icon {
-    left: 190px;
+    left: 220px;
   }
 }
