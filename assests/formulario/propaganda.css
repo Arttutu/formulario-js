@@ -11,7 +11,7 @@
     color: #fdfdfd;
     text-align: center;
 }
-@media (max-width: 375px){
+@media (max-width: 768px){
     .caixa__propaganda{
        margin-bottom: 30px;
 

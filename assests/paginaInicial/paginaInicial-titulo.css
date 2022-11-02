@@ -4,7 +4,7 @@
     font-family: var(--fonte-estilo);
     color:#fdfdfd;
 }
-@media(max-width: 375px){
+@media(max-width: 768px){
     .paginaInicial__titulo{
             text-align:center;
             font-size: 2rem;
