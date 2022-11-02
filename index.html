@@ -2,143 +2,142 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-    <link href="assests\style.css" rel="stylesheet">
-    <link href="assests\conteudo.css" rel="stylesheet">
-    <link href="assests/paginaInicial/paginaInicial-titulo.css" rel="stylesheet">
-    <link href="assests/formulario.css" rel="stylesheet">
-    <link href="assests\reset.css" rel="stylesheet">
-    <link href="assests\paginaInicial\paginaInical.css" rel="stylesheet">
-    <link href="assests\paginaInicial\paginaInicial__descricao.css" rel="stylesheet">
-    <link href="assests\img.css" rel="stylesheet">
-    <link href="assests\formulario\input.css" rel="stylesheet">
-    <link href="assests\formulario\propaganda.css" rel="stylesheet">
-    <link href="assests\footer.css" rel="stylesheet">
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fasthand&family=Poppins&display=swap" rel="stylesheet">
-    
-    <title>Formulário</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="assests\style.css" rel="stylesheet">
+  <link href="assests\conteudo.css" rel="stylesheet">
+  <link href="assests/paginaInicial/paginaInicial-titulo.css" rel="stylesheet">
+  <link href="assests/formulario.css" rel="stylesheet">
+  <link href="assests\reset.css" rel="stylesheet">
+  <link href="assests\paginaInicial\paginaInical.css" rel="stylesheet">
+  <link href="assests\paginaInicial\paginaInicial__descricao.css" rel="stylesheet">
+  <link href="assests\img.css" rel="stylesheet">
+  <link href="assests\formulario\input.css" rel="stylesheet">
+  <link href="assests\formulario\propaganda.css" rel="stylesheet">
+  <link href="assests\footer.css" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fasthand&family=Poppins&display=swap" rel="stylesheet">
+
+  <title>Formulário</title>
+
+
 </head>
 
 <body class="app">
 
-    <main class="conteudo">
-        <section class="paginaInicial">
+  <main class="conteudo">
+    <section class="paginaInicial">
 
 
-            <div class="paginaInical__main">
+      <div class="paginaInical__main">
 
-                <h1 class="paginaInicial__titulo">Aprenda a codificar observando os outros</h1>
+        <h1 class="paginaInicial__titulo">Aprenda a codificar observando os outros</h1>
 
-                <P class="PaginaInicial__descricao">Veja como desenvolvedores experientes resolvem problemas em tempo
-                    real. Assistir a tutoriais com script é ótimo, mas entender como os desenvolvedores pensam é
-                    inestimável.</P>
+        <P class="PaginaInicial__descricao">Veja como desenvolvedores experientes resolvem problemas em tempo
+          real. Assistir a tutoriais com script é ótimo, mas entender como os desenvolvedores pensam é
+          inestimável.</P>
 
-            </div>
+      </div>
 
-            <div class="paginaInicial__formulario">
+      <div class="paginaInicial__formulario">
 
-                <div class="paginaInicial__flex">
+        <div class="paginaInicial__flex">
 
-                    <div class="caixa__propaganda">
-                        <p class="propaganda__descricao"> Experimente grátis por 7 dias e depois $ 20/mês. </p>
-                    </div>
-
-
-
-                    <div class="caixa__form">
-
-                        <form id="formulario">
+          <div class="caixa__propaganda">
+            <p class="propaganda__descricao"> Experimente grátis por 7 dias e depois $ 20/mês. </p>
+          </div>
 
 
-                            <label>
-                                <svg class="icon error">
-                                    <use xlink:href="#icon-error"> </use>
-                                </svg>
-                                <input type="text" placeholder="Seu nome" id="nome" class="required"
-                                    oninput="nameValidate()"></input>
-                                <span class="span-required">Nome não pode estar vazio</span>
 
-                            </label>
+          <div class="caixa__form">
+
+            <form id="formulario">
 
 
-                            <label>
-                                <svg class="icon error">
-                                    <use xlink:href="#icon-error"></use>
-                                </svg>
+              <label>
+                <svg class="icon error">
+                  <use xlink:href="#icon-error"> </use>
+                </svg>
+                <input type="text" placeholder="Seu nome" id="nome" class="required" oninput="nameValidate()"></input>
+                <span class="span-required">Nome não pode estar vazio</span>
 
-                                <input type="text" placeholder="Ultimo Nome" class="required" id="ultimo-nome"
-                                    oninput="sobreNomeValidate()"></input>
-                                <span class="span-required">Sobrenome tem que ter mais de 3 letras</span>
-
-                            </label>
-
-                            <label>
-                                <svg class="icon error">
-                                    <use xlink:href="#icon-error"></use>
-                                </svg>
-                                <input type="email" placeholder="endereço@domínimo.com" class="required" id="email"
-                                    oninput="emailValidate()"></input>
-                                <span class="span-required">Parece que isso não é um email</span>
-
-                            </label>
-
-                            <label>
-                                <svg class="icon error">
-                                    <use xlink:href="#icon-error"></use>
-                                </svg>
-                                <input type="password" placeholder="Sua Senha" class="formulario__texto required"
-                                    id="senha" oninput=" senhaValidacao()"></input>
-                                <span class="span-required">Sua senha não tem 8 dígitos</span>
-                            </label>
+              </label>
 
 
-                            <button type="submit" class="botao__formulario"> reivindique sua avaliação gratuita</button>
+              <label>
+                <svg class="icon error">
+                  <use xlink:href="#icon-error"></use>
+                </svg>
+
+                <input type="text" placeholder="Ultimo Nome" class="required" id="ultimo-nome"
+                  oninput="sobreNomeValidate()"></input>
+                <span class="span-required">Sobrenome tem que ter mais de 3 letras</span>
+
+              </label>
+
+              <label>
+                <svg class="icon error">
+                  <use xlink:href="#icon-error"></use>
+                </svg>
+                <input type="email" placeholder="endereço@domínimo.com" class="required" id="email"
+                  oninput="emailValidate()"></input>
+                <span class="span-required">Parece que isso não é um email</span>
+
+              </label>
+
+              <label>
+                <svg class="icon error">
+                  <use xlink:href="#icon-error"></use>
+                </svg>
+                <input type="password" placeholder="Sua Senha" class="formulario__texto required" id="senha"
+                  oninput=" senhaValidacao()"></input>
+                <span class="span-required">Sua senha não tem 8 dígitos</span>
+              </label>
 
 
-                        </form>
+              <button type="submit" class="botao__formulario"> reivindique sua avaliação gratuita</button>
 
 
-                        <p class="direitos__formulario"> Ao clicar no botão, você concorda com nossos
-                        <p id="termos">Termos e Serviços </p>
-                        </p>
-
-                    </div>
-                </div>
-            </div>
+            </form>
 
 
-        </section>
+            <p class="direitos__formulario"> Ao clicar no botão, você concorda com nossos
+            <p id="termos">Termos e Serviços </p>
+            </p>
+
+          </div>
+        </div>
+      </div>
 
 
-    </main>
-
-    <footer class="rodape">
-        <p class="rodape_descricao">
-            Desafio por <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-            Coded by <a href="https://arttutu.github.io/meu_portfolio/">Arthur Gomes dos Santos</a>.
-        </p>
-    </footer>
-
-    <svg class="spritesheet">
-
-        <symbol id="icon-error" viewBox="0 0 32 32">
-            <title>user</title>
-            <path
-                d="M12 17.85q.725 0 1.225-.5.5-.5.5-1.225 0-.725-.5-1.238-.5-.512-1.225-.512-.725 0-1.225.512-.5.513-.5 1.238t.5 1.225q.5.5 1.225.5Zm-1.575-4.8h3.15V6.475h-3.15ZM12 22.85q-2.275 0-4.25-.85t-3.438-2.312Q2.85 18.225 2 16.25q-.85-1.975-.85-4.25T2 7.75q.85-1.975 2.312-3.438Q5.775 2.85 7.75 2q1.975-.85 4.25-.85t4.25.85q1.975.85 3.438 2.312Q21.15 5.775 22 7.75q.85 1.975.85 4.25T22 16.25q-.85 1.975-2.312 3.438Q18.225 21.15 16.25 22q-1.975.85-4.25.85Zm0-3.15q3.25 0 5.475-2.225Q19.7 15.25 19.7 12q0-3.25-2.225-5.475Q15.25 4.3 12 4.3q-3.25 0-5.475 2.225Q4.3 8.75 4.3 12q0 3.25 2.225 5.475Q8.75 19.7 12 19.7Zm0-7.7Z">
-            </path>
-        </symbol>
-
-    </svg>
-    <script src="js/validaFormulario.js"></script>
     </section>
+
+
+  </main>
+
+  <footer class="rodape">
+    <p class="rodape_descricao">
+      Desafio por <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://arttutu.github.io/meu_portfolio/">Arthur Gomes dos Santos</a>.
+    </p>
+  </footer>
+
+  <svg class="spritesheet">
+
+    <symbol id="icon-error" viewBox="0 0 32 32">
+      <title>user</title>
+      <path
+        d="M12 17.85q.725 0 1.225-.5.5-.5.5-1.225 0-.725-.5-1.238-.5-.512-1.225-.512-.725 0-1.225.512-.5.513-.5 1.238t.5 1.225q.5.5 1.225.5Zm-1.575-4.8h3.15V6.475h-3.15ZM12 22.85q-2.275 0-4.25-.85t-3.438-2.312Q2.85 18.225 2 16.25q-.85-1.975-.85-4.25T2 7.75q.85-1.975 2.312-3.438Q5.775 2.85 7.75 2q1.975-.85 4.25-.85t4.25.85q1.975.85 3.438 2.312Q21.15 5.775 22 7.75q.85 1.975.85 4.25T22 16.25q-.85 1.975-2.312 3.438Q18.225 21.15 16.25 22q-1.975.85-4.25.85Zm0-3.15q3.25 0 5.475-2.225Q19.7 15.25 19.7 12q0-3.25-2.225-5.475Q15.25 4.3 12 4.3q-3.25 0-5.475 2.225Q4.3 8.75 4.3 12q0 3.25 2.225 5.475Q8.75 19.7 12 19.7Zm0-7.7Z">
+      </path>
+    </symbol>
+
+  </svg>
+  <script src="js/validaFormulario.js"></script>
+  </section>
 </body>
 
 </html>
