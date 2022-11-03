@@ -8,7 +8,7 @@ Esse é um desafio da equipe Frontend Mentor que ajudam a mnelhorar as suas capa
   - [O Desafio](#o-desafio)
   - [Captura de ecrã](#screenshot)
   - [Links](#links)
-  - [Construído com](#construido-com)
+  - [Construído com](#Construído-com)
   - [O que aprendi](#O-que-aprendi)
   - [Recursos utilizados](#recursos-utilizados)
 - [Eu](#eu)
@@ -32,8 +32,8 @@ Os utilizadores devem ser capazes de o fazer:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Arttutu/formulario-js)
-- Live Site URL: [Add live site URL here](https://arttutu.github.io/formulario-js/)
+- Solution URL: [https://github.com/Arttutu/formulario-js]
+- Live Site URL: [https://arttutu.github.io/formulario-js/]
 
 ### Construído com
 
