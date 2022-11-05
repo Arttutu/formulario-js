@@ -1,6 +1,6 @@
 # Validação JavaScript
 
-Esse é um desafio da equipe Frontend Mentor que ajudam a mnelhorar as suas capacidades de codificação através da construção de projetos realista.
+Esse é um desafio da equipe Frontend Mentor que ajudam a melhorar as suas capacidades de codificação através da construção de projetos realista.
 
 ## índice
 
