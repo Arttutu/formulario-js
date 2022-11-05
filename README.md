@@ -1,4 +1,4 @@
-# Desafio Validação de com JavaScript
+# Validação de com JavaScript
 
 Esse é um desafio da equipe Frontend Mentor que ajudam a mnelhorar as suas capacidades de codificação através da construção de projetos realista.
 
