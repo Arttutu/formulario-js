@@ -1,77 +1,73 @@
-
-.paginaInicial__flex{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+.paginaInicial__flex {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
-.caixa__form{
-    padding-top: 40px;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 5%;
-    height: auto;
-    width: 80%;
-    background-color: #fdfdfd;
-    border-radius: 10px;
-    box-shadow: 4px 8px 4px  rgba(0, 0, 0, 0.288)
+.caixa__form {
+  padding: 30px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+  height: auto;
+  width: 80%;
+  background-color: #fdfdfd;
+  border-radius: 10px;
+  box-shadow: 4px 8px 4px rgba(0, 0, 0, 0.288);
 }
-#formulario{
-    display: flex;
-    flex-direction: column;
-    gap:1rem;
+#formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
-input:focus{
-    border: 3px solid var(--blue)
-
+input:focus {
+  border: 3px solid var(--blue);
 }
-.botao__formulario{
-    border: none;
-    border-radius: 5px;
-    background-color: var(--verde);
-    font-family: var(--fonte-estilo);
-    font-weight: 700;
-    color: #fdfdfd;
-    text-transform: uppercase;
-    height: 50px;
-    width: 91%;
-    margin-left: 5%;
-    margin-right: 5%;
-    transition: 0.3s;
+.botao__formulario {
+  border: none;
+  border-radius: 5px;
+  background-color: var(--verde);
+  font-family: var(--fonte-estilo);
+  font-weight: 700;
+  color: #fdfdfd;
+  text-transform: uppercase;
+  height: 50px;
+  width: 91%;
+  margin-left: 5%;
+  margin-right: 5%;
+  transition: 0.3s;
 }
-.botao__formulario:hover{
-    background-color:  hsla(154, 98%, 51%, 0.993); ;
-    cursor: pointer;
+.botao__formulario:hover {
+  background-color: hsla(154, 98%, 51%, 0.993);
+  cursor: pointer;
 }
-.direitos__formulario{
+.direitos__formulario {
+  font-size: 0.8rem;
+  color: rgba(0, 0, 0, 0.363);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+#termos {
+  padding-bottom: 10px;
+  font-size: 0.8rem;
+  text-align: center;
+  color: var(--red);
+}
+.span-required {
+  display: none;
+  color: var(--red);
+  font-size: 1rem;
+  text-align: right;
+  margin-right: 5%;
+  margin-top: 5px;
+}
+@media (max-width: 768px) {
+  .caixa__form {
+    margin-bottom: 80px;
+  }
+  .span-required {
     font-size: 0.8rem;
-    color: rgba(0, 0, 0, 0.363);
-    padding-top:10px;
-    padding-bottom: 10px;
-    text-align: center;
-}
-#termos{
-    padding-bottom: 10px;
-    font-size: 0.8rem;
-    text-align: center;
-    color: var(--red) ;
-}
-.span-required{
-    display: none;
-    color: var(--red);
-    font-size: 1rem;
-    text-align: right;
-    margin-right: 5%;
-    margin-top: 5px;
-}
-@media (max-width: 768px){
-    .caixa__form{
-        margin-bottom: 80px;
-        
-    }
-    .span-required{
-        font-size: 0.8rem;
-
-    }
+  }
 }
