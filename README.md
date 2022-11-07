@@ -50,8 +50,8 @@ Aprendi a utilizar CSS Grid para dispor os elementos na tela, também utilizei p
 
 ### Recursos utilizados
 
-- [Example resource 1](https://regex101.com/) - Esse site incrível me ajudou a construir minha expressão regular, que foi fundamental para eu conseguir fazer a validação do e-mail.
-- [Example resource 2](https://www.alura.com.br/) - Essa é uma maravilhosa plataforma de estudos online, que me ajudou a entender melhor os conceitos de flexbox e CSS grid.
+- [Regex101](https://regex101.com/) - Esse site incrível me ajudou a construir minha expressão regular, que foi fundamental para eu conseguir fazer a validação do e-mail.
+- [Alura](https://www.alura.com.br/) - Essa é uma maravilhosa plataforma de estudos online, que me ajudou a entender melhor os conceitos de flexbox e CSS grid.
 
 ## Eu
 
