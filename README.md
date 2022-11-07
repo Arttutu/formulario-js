@@ -62,4 +62,4 @@ Aprendi a utilizar CSS Grid para dispor os elementos na tela, também utilizei p
 
 ## Agradecimentos
 
-Quero agradeçer a Ana clara por te me aprensentado a plataforma @FrontendMentor.
+Quero agradeçer a Ana clara por te me aprensentado a plataforma @FrontendMentor e me incentivado durante todo o projeto.
